@@ -6,5 +6,8 @@
 # to the local SSH server (running on port 22, exposed on port 8022).
 #OPTIONS='-R 8022:localhost:22'
 
+# Uncomment the line below to instead expose port 60022:
+#OPTIONS='-R 60022:localhost:60022'
+
 # Remote SSH server to connect to, i.e., [user@]hostname.
 REMOTE_SERVER=

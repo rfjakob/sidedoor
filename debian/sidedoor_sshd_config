@@ -1,0 +1,6 @@
+# Configuration file for a locked-down ssh server running on port 60022.
+# Only the user "sidedoor" can log in, and only with a public key.
+
+Port 60022
+AllowUsers sidedoor
+AuthenticationMethods publickey
